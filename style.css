@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at center, white 0%, #99f799 100%);
+}
+
+#head{
+    position: absolute;
+}
+#head-top{
+    position: relative;
+    background-color: #87e236;
+    border: black 15px solid;
+    border-radius: 330px 330px 150px 150px ;
+    box-shadow: 0px -150px 90px #2b9607 inset;
+    top: 500px;
+    width: 750px;
+    height: 500px;
+}
+#head-bottom{
+    position: relative;
+    background-color: #f4f4f4;
+    box-shadow: 0px -55px 45px #c2c2c2 inset;
+    border: black 15px solid;
+    border-radius: 0 0 140px 140px;
+    top: 400px;
+    left: 125px;
+    width: 500px;
+    height: 300px;
+}
+#circle{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.circle{
+    position: absolute;
+    background-color: white;
+    border: 13px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+} 
+#left-circle{
+    top: 110px;
+    left: 50px;
+}
+#center-circle{
+    left: 50%;
+    transform: translate(-50%,0);
+    bottom: 0px;
+    width: 230px ;
+    height: 230px;
+}
+#right-circle{
+    top: 130px;
+    right: 50px;
+}
+#eyes{
+    position: relative;  
+    width: 100%;
+    height: 100%;
+}
+.eyes{
+    width: 50px;
+    height: 130px;
+    position: absolute;
+    background-color: black;
+    transform: translate(-50%,0);
+    border-radius: 25px;
+}
+#left-eye{
+    top: 30px;
+    left: 320px;
+}
+#right-eye{
+    top: 30px;
+    left: 180px;
+}
